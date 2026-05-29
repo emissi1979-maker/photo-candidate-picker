@@ -80,3 +80,17 @@ http://127.0.0.1:5000
 ## Важное замечание
 
 Предупреждения помогают быстро отсеять сомнительные результаты, но не заменяют ручную проверку соответствия изображения статье и условий лицензии перед публикацией.
+
+## Пример входного файла
+
+В папке `input/` добавлен текстовый пример `input_template.csv`. Его можно загрузить в приложение напрямую или открыть в Excel и при необходимости сохранить как `.xlsx`.
+
+CSV содержит заголовки всех обязательных колонок и пять тестовых строк:
+
+| title | search_query | category | exact_name | must_include | must_exclude | notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Danio albolineatus | Danio albolineatus fish | biology | Danio albolineatus | fish; Danio | logo; illustration | Pearl danio: проверить, что фото показывает вид, а не схему. |
+| Stihl MS 180 | Stihl MS 180 chainsaw | tools | Stihl MS 180 | chainsaw; Stihl | toy; manual | Бензопила: нужна фотография модели или максимально близкой линейки. |
+| Echo CS-3500 | Echo CS-3500 chainsaw | tools | Echo CS-3500 | chainsaw; Echo | toy; manual | Проверить маркировку модели на корпусе, если она видна. |
+| Трактор Т-16 | Трактор Т-16 | machinery | Т-16 | трактор; Т-16 | игрушка; схема | Желательно фото трактора в реальном использовании. |
+| Компрессор для септика | septic air pump compressor | home | компрессор для септика | compressor; septic | diagram; advertisement | Подойдет фото аэрационного компрессора/воздушного насоса для септика. |
